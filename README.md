@@ -13,5 +13,5 @@ Adding images to your README file can make it more visually appealing and easier
 3. **Insert the image in your README**: Now, you can insert the image into your README file using Markdown syntax. Here's an example:
 
    ```markdown
-   ![Alt text](https://i.ibb.co/3r57PXd/Screenshot-478.png)
+   ![Alt text](img/img1.jpg)
    ```
