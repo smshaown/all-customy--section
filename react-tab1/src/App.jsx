@@ -11,16 +11,18 @@ import brandLogo7 from "./assets/image/tabsImages/brand-logo7.webp";
 import brandLogo8 from "./assets/image/tabsImages/brand-logo8.webp";
 
 function App() {
-  const [activeTab, setActiveTab] = useState("tab1");
+  const [activeTab, setActiveTab] = useState("tab1");   
 
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);
   };
 
+  ///
+
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Example AOS configuration
-      once: true // Example AOS configuration
+      duration: 1000, 
+      once: true 
     });
   }, []);
 
